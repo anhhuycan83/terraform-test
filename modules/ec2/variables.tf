@@ -5,5 +5,7 @@ variable "vpc_id_test" {}
 variable "subnet_id_test" {}
 
 # Variable for ec2
-variable instance_type {}
-variable volume_size {}
+variable "instance_type" {}
+variable "volume_size" {}
+variable "db_parameters_key_arn" {}
+variable "db_password_arn" {}
